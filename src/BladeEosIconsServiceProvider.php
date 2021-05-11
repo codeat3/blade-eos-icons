@@ -18,7 +18,7 @@ final class BladeEosIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-eos-icons', []);
 
-            $factory->add('codicon', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('eos-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
 
     }
