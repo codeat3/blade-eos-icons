@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.3.2 (2021-05-14)
+synced withh the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/2592a9769b809d77b31603125dc6e4a4c4c936f4)
+
 ## 1.2.2 (2021-05-12)
 Added support for config file
 
