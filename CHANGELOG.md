@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.5.2 (2021-06-04)
+synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/5bb5ef991b7c506cfc45a65237ed6b53b391ebcf)
+
 ## 1.4.2 (2021-05-27)
 synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/d002a6ee774a52743f139469d2faa879c8f80a12)
 
