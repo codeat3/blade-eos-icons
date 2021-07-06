@@ -10,7 +10,6 @@ use Illuminate\Contracts\Container\Container;
 
 final class BladeEosIconsServiceProvider extends ServiceProvider
 {
-
     public function register(): void
     {
         $this->registerConfig();
@@ -20,7 +19,6 @@ final class BladeEosIconsServiceProvider extends ServiceProvider
 
             $factory->add('eos-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
