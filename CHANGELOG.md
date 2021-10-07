@@ -2,6 +2,10 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.8.2 (2021-10-07)
+- additional icons which were missed in the previous sync script
+- synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/80e25620c42a4e433ec3f32fe77c7e6c615261bb)
+
 ## 1.7.2 (2021-06-21)
 synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/eabbbf7d1561600a4a2985577f7b5b5f72815b8f)
 
