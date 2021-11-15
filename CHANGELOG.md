@@ -4,6 +4,9 @@ This changelog follows [the Keep a Changelog standard](https://keepachangelog.co
 
 ## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.8.2...main)
 
+## 1.9.2 (2021-11-15)
+- synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/e7ac959f2478f1c967f4ef721cd1edfe7971330b)
+
 ## 1.8.2 (2021-10-07)
 - additional icons which were missed in the previous sync script
 - synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/80e25620c42a4e433ec3f32fe77c7e6c615261bb)
