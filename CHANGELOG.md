@@ -4,16 +4,16 @@ This changelog follows [the Keep a Changelog standard](https://keepachangelog.co
 
 ## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.10.2...HEAD)
 
-## 1.9.2 (2021-11-15)
-
-- synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/e7ac959f2478f1c967f4ef721cd1edfe7971330b)
-
 ## [1.10.2](https://github.com/codeat3/blade-eos-icons/compare/1.8.2...1.10.2) - 2022-01-03
 
 ### Dev Update
 
 - added auto update change log workflow
 - running auto update only once a week
+
+## 1.9.2 (2021-11-15)
+
+- synced with the latest commit of eos-icons (https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/e7ac959f2478f1c967f4ef721cd1edfe7971330b)
 
 ## 1.8.2 (2021-10-07)
 
