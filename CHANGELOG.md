@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.10.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.11.2...HEAD)
+
+## [1.11.2](https://github.com/codeat3/blade-eos-icons/compare/1.10.2...1.11.2) - 2022-02-03
+
+## What's Changed
+
+- Added support for Laravel 9 by @swapnilsarwe in https://github.com/codeat3/blade-eos-icons/pull/4
+
+**Full Changelog**: https://github.com/codeat3/blade-eos-icons/compare/1.10.2...1.11.2
 
 ## [1.10.2](https://github.com/codeat3/blade-eos-icons/compare/1.8.2...1.10.2) - 2022-01-03
 
