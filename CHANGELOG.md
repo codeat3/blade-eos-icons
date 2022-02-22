@@ -2,7 +2,19 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.11.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.12.2...HEAD)
+
+## [1.12.2](https://github.com/codeat3/blade-eos-icons/compare/1.11.2...1.12.2) - 2022-02-22
+
+## Updates
+
+- synced with the latest commit [a21c4b9b](https://gitlab.com/SUSE-UIUX/eos-icons/-/commit/a21c4b9ba5667f103abc620975fec5ec98078d85)
+
+## What's Changed
+
+- chore: update icons with the latest commit va21c4b9ba5667f103abc620975fec5ec98078d85 by @github-actions in https://github.com/codeat3/blade-eos-icons/pull/5
+
+**Full Changelog**: https://github.com/codeat3/blade-eos-icons/compare/1.11.2...1.12.2
 
 ## [1.11.2](https://github.com/codeat3/blade-eos-icons/compare/1.10.2...1.11.2) - 2022-02-03
 
