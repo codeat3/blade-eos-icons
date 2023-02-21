@@ -1,7 +1,6 @@
 name: Auto Update Icons
 
 on:
-  push:
   schedule:
     - cron: '0 12 * * 1'
 
@@ -12,8 +11,8 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [8.0]
-        laravel: [^8.0]
+        php: [8.2]
+        laravel: [^8.2]
 
     name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
 
@@ -29,9 +28,11 @@ jobs:
           env-file: .env
 
       - name: Checkout dependent repo
-        run: |
-          git clone ${{ env.REPOSITORY }} dist
-          cd dist  && git checkout ${{ env.BRANCH }}
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.REPOSITORY }}
+          ref: ${{ env.BRANCH }}
+          path: ./dist
 
       - id: latest-commit
         name: Get the latest commit
@@ -78,3 +79,4 @@ jobs:
             This updates from [${{ env.CURRENT_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.CURRENT_COMMIT }}) to [${{ env.LATEST_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.LATEST_COMMIT }}).
             Check out the differences: [`${{ env.CURRENT_COMMIT }}` ... `${{ env.LATEST_COMMIT }}`](https://github.com/${{ env.REPOSITORY }}/compare/${{ env.CURRENT_COMMIT }}...${{ env.LATEST_COMMIT }})
           branch: feature/update-${{ env.LATEST_COMMIT }}
+
