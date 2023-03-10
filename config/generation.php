@@ -10,6 +10,11 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
         $iconProcessor = new IconProcessor($tempFilepath, $iconSet);
         $iconProcessor
             ->optimize()
+            ->postOptimizationAsString(function ($svgLine){
+                return str_replace([
+                    'fill="#010101"'
+                ], 'fill="currentColor"', $svgLine);
+            })
             ->save();
     }catch (InvalidFileExtensionException $e) {
         print_r($e->getMessage());
