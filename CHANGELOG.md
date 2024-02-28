@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.13.3...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.14.0...HEAD)
+
+## [1.14.0](https://github.com/codeat3/blade-eos-icons/compare/1.13.3...1.14.0) - 2024-02-28
+
+### What's Changed
+
+* laravel 11 support by @swapnilsarwe in https://github.com/codeat3/blade-eos-icons/pull/9
+
+**Full Changelog**: https://github.com/codeat3/blade-eos-icons/compare/1.13.3...1.14.0
 
 ## [1.13.3](https://github.com/codeat3/blade-eos-icons/compare/1.13.2...1.13.3) - 2023-03-10
 
