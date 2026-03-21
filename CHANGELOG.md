@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.15.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-eos-icons/compare/1.16.0...HEAD)
+
+## [1.16.0](https://github.com/codeat3/blade-eos-icons/compare/1.15.0...1.16.0) - 2026-03-21
+
+### What's Changed
+
+* laravel 13 compatibility by @swapnilsarwe in https://github.com/codeat3/blade-eos-icons/pull/11
+
+**Full Changelog**: https://github.com/codeat3/blade-eos-icons/compare/1.15.0...1.16.0
 
 ## [1.15.0](https://github.com/codeat3/blade-eos-icons/compare/1.14.0...1.15.0) - 2025-02-25
 
